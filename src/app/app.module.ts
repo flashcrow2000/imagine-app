@@ -12,6 +12,8 @@ import { ImagineDetailsComponent } from './imagine-details/imagine-details.compo
 import { ContributeComponent } from './contribute/contribute.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { AppRoutingModule } from './app-routing.module';
+import { SingleIdeaComponent } from './ideas/single-idea/single-idea.component';
+import { FeaturedIdeasComponent } from './ideas/featured-ideas/featured-ideas.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     ImagineDetailsComponent,
     ContributeComponent,
-    IdeasComponent
+    IdeasComponent,
+    SingleIdeaComponent,
+    FeaturedIdeasComponent
   ],
   imports: [
     BrowserModule,

@@ -9,14 +9,14 @@
 		<app-account-menu></app-account-menu>
 	</div>
 </div> -->
-<nav class="navbar navbar-default">
+<nav class="center-block navbar navbar-default" style="max-width: 980px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" style="cursor:pointer" routerLink="/">Imagine</a>
     </div>
     <ul class="nav navbar-nav">
-      <li routerLinkActive="active">
-      	<a style="cursor:pointer" routerLink="/">Home</a>
+      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+      	<a style="cursor:pointer" routerLink="/" >Home</a>
       </li>
       <li routerLinkActive="active">
       	<a style="cursor:pointer" routerLink="/imagine">What is Imagine</a>
